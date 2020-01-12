@@ -29,19 +29,24 @@ Also, how you get power to your Raspberry Pi Zero is up to you and outside of th
 While you could use the official Raspberry Pi power supply, I found that an Apple iPhone charger (the small ones) are great for powering up a Raspberry Pi Zero W. We will not be using any peripherals such as keyboards and mice, so the 1amp from the charger will be plenty. 
 
 What you will need:
+
 1.   LIFX Light Bulb
+
      a. You need to have setup your LIFX light bulb using the LIFX app before attempting this project. This project     communicates with the LIFX bulb directly over WiFi, so it needs to be on the same SSID as what your Pi Zero will be on.
  
 2.   Raspberry Pi Zero W with SD card
+
      a. The Pi Zero comes in two flavours (with and without pin headers).  If you are like me, and can’t solder for the life of you, I recommend the Raspberry Pi Zero WH, so that you can simply connect the switch wires to the pins.
  
 3.   Raspberry Pi USB Power Supply or similar quality power supply.
 
 4.   Momentary (Bell Press) Switch
+
      a. Such as the Clipsal Push Button Switch https://www.clipsal.com/products/detail?catno=30PBBP&tab-document-1=1 or the Clipsal Bell Press Standard Rocker https://www.clipsal.com/products/detail?catno=30MBPR&tab-document-1=1 these switches are compatible with most other brands such as HPM. They simply snap into the Wall Gang Plate and can easily be removed by leveraging with flat head screw driver.  You can purchase these directly from your local electrical wholesaler.
  
 
 5.   Low Voltage Cable
+
      a. You can use any low voltage electrical cable. I used some left over telephone cable or you could use some jumper cable or even cat 5/6 ethernet cable.  Your cable needs to be long enough to extend from your Pi Zero to the wall switch. Your Pi will only output a maximum of +3.3V through the momentary switch and cable.
 
 6.   2 Pin Female Polarized Header Connector
@@ -52,7 +57,8 @@ What you will need:
 a.   While still requiring some solder, they are a lot easier than trying to solder directly to the PCB of Pi Zero. You can find the Crimp Pins here https://core-electronics.com.au/polarized-connectors-crimp-pins.html.
 
 
-Instructions
+INSTRUCTIONS
+
 Pi Zero W setup
  
 1.   Download, extract and image your SD Card with Raspbian Lite 
@@ -128,7 +134,7 @@ Pi Zero W setup
      c. Type sudo reboot
  
  
-Switch Setup
+SWITCH SETUP
 1.   Wire up your switch
      a. Use the Low Voltage Cable to connect one wire to the ‘C’, Common, Positive or Live terminal of your switch, and another wire to connect to the ‘1’, Negative or Neutral terminal.
      b. Solder the other end of your cable using the head connector and crimp pins.
