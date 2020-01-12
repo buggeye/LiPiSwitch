@@ -1,6 +1,11 @@
 # LiPiSwitch
 LifX Raspberry Pi Zero Wall Switch
 
+To get the neccessary files, you can download the files 'switch.py' and 'forever', then the latest LIFXLAN project files from https://github.com/mclarkk/lifxlan or simply download the 'lipiswitch-complete.zip' which contains all these files and extract onto your Raspberry Pi Zero. 
+
+Make sure you follow the step by step instruction below.
+
+INTRODUCTION
 This project was born out of necessity, when I purchased a WiFi enabled smart LIFX bulb for our bedroom. I love the idea of changing the temperature of the light, white for daytime and orange for evenings and the ability to remotely turn the light off.  In short, I love the LIFX light bulbs.
  
 However, they don’t pass the wife test.  What’s the wife test?  In simple terms if your wife can not turn the light on and off just like she could with a standard bulb, then it’s useless, and you will need to remove it before she does!
