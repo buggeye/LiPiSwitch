@@ -6,6 +6,7 @@ To get the neccessary files, you can download the files 'switch.py' and 'forever
 Make sure you follow the step by step instruction below.
 
 INTRODUCTION
+
 This project was born out of necessity, when I purchased a WiFi enabled smart LIFX bulb for our bedroom. I love the idea of changing the temperature of the light, white for daytime and orange for evenings and the ability to remotely turn the light off.  In short, I love the LIFX light bulbs.
  
 However, they don’t pass the wife test.  What’s the wife test?  In simple terms if your wife can not turn the light on and off just like she could with a standard bulb, then it’s useless, and you will need to remove it before she does!
@@ -20,6 +21,7 @@ What this means is that we can use the Pi to control the light using the same Wi
  
  
 WARNINGS
+
 Before you start, a warning regarding 240v light switches. This project utilises a standard Australian wall switch.  While it does not require you to change any 240v wiring, it does mean pulling the light switch from the wall and adding the new (low voltage) switch into your wall panel.  You can build this project and test it, but you will need to employ the services of a licensed electrician to install that switch into the wall plate. 
  
 Also, how you get power to your Raspberry Pi Zero is up to you and outside of the scope of this project.  I recommend only powering your Pi Zero using the micro USB power port.
@@ -28,7 +30,7 @@ While you could use the official Raspberry Pi power supply, I found that an Appl
 
 What you will need:
 1.   LIFX Light Bulb
-     a. You need to have setup your LIFX light bulb using the LIFX app before attempting this project. This project communicates with the LIFX bulb directly over WiFi, so it needs to be on the same SSID as what your Pi Zero will be on.
+     a. You need to have setup your LIFX light bulb using the LIFX app before attempting this project. This project     communicates with the LIFX bulb directly over WiFi, so it needs to be on the same SSID as what your Pi Zero will be on.
  
 2.   Raspberry Pi Zero W with SD card
      a. The Pi Zero comes in two flavours (with and without pin headers).  If you are like me, and can’t solder for the life of you, I recommend the Raspberry Pi Zero WH, so that you can simply connect the switch wires to the pins.
