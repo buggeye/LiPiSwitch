@@ -1,5 +1,5 @@
 # LiPiSwitch
-LifeX Raspberry Pi Zero Wall Switch
+LifX Raspberry Pi Zero Wall Switch
 
 This project was born out of necessity, when I purchased a WiFi enabled smart LIFX bulb for our bedroom. I love the idea of changing the temperature of the light, white for daytime and orange for evenings and the ability to remotely turn the light off.  In short, I love the LIFX light bulbs.
  
